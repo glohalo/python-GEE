@@ -5,7 +5,7 @@ ee.Authenticate()
 ee.Initialize(project='ee-yourprojectid')
 
 # Load buffer shapefile asset
-buffer = ee.FeatureCollection("projects/ee-gloriacarrascal53/assets/Buffer")
+buffer = ee.FeatureCollection("projects/ee-yourprojectid/assets/Buffer")
 buffer_filter = buffer.geometry().buffer(250)  
 
 # Define years and semesters
